@@ -1,0 +1,21 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# Python Compilation Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environment Secrets & Local Configurations
+.env
+.envrc
+.wslconfig
+
+# Model Weights and Large Datasets
+models/
+data/
+.cache/
