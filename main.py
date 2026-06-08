@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from mcp.server.fastmcp import FastMCP 
+from mcp.server import Server
+
 
 mcp = FastMCP("core-rag-service")
 
